@@ -1,0 +1,75 @@
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 200vh; /* Tambah panjang halaman */
+}
+
+.prayer-times {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.prayer-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.prayer-item {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Menebalkan nama jadwal sholat */
+.prayer-item p:first-child {
+    font-weight: bold;
+}
+
+hr {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.header {
+    padding: 10px;
+    background-color: rgb(7, 241, 202);
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left img {
+    display: block;
+    width: 50px;
+    margin: 10px auto;
+}
+
+.auth-btn {
+    background-color: #800000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.right {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 18px;
+}
